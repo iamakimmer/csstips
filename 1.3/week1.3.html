@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>WEEK 1.3</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		img {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<h1>css tips - floating and positioning</h1>
+
+	<h2>1. With Fixed Positioning, You can move elements anywhere on the browser using left, top, bottom, right. Even if you scroll down, fixed element will stay put.</h2>
+	<img src="fixedexample.gif"/>
+
+	<h2>2. Use Absolute/Relative Positioning Go Together. Using top/bottom/left/right in the absolute positioned container are relative to the parent container. </h2>
+	<img src="relativeandabsolute.gif"/>
+
+	<h2>3. Floating Items - Use floats to position block level elements to the left or right. Notice I made a mistake here, I put .box3 instead of #box3. Why should it use a #?</h2>
+	<img src="floatleft.gif"/>
+
+	<h2>4. Using Clear. Use clear to reset the floats</h2>
+	<img src="clear.gif"/>
+
+	<h2>What if you wanted this image in this div, thats larger than the text? Use overflow!</h2>
+	<img src="overflow.gif"/>
+
+
+	<h2>Using Margin to center elements. You have to use width here. Look what happens if you remove width:</h2>
+	<img src="margin0auto.gif"/>
+
+	<h2>Using Padding. Padding - Internal to the element (inside the border).</h2>
+	<img src="padding.gif"/>
+
+	<h2>You can override default padding by using more specific attributes (left,right,bottom,top)</h2>
+	<img src="paddingbottom.gif"/>
+
+	<h2>Margins Collapse! Collapsing margins happen when two margins come in contact with one another. If one margin is greater than the other, then that margin overrides the other, leaving one margin. Notice when I add margin-top to the .bottomdiv, nothing happens.</h2>
+	<img src="margincollapse.gif"/>	
+
+	<h2>Layouts using Floats</h2>
+	<img src="floatlayout.gif"/>
+
+</body>
+</html>
